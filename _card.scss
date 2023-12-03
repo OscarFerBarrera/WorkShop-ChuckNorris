@@ -1,0 +1,36 @@
+@import 'mixins';
+
+.card{
+    width: 90Vw;
+    border: 1px $color1 solid;
+    @include flexible;
+    flex-direction: column;
+
+    &__selection{
+        width: 100%;
+    }
+    &__title{
+        width: 100%;
+        background-color: $color1;
+        text-align: center;
+    }
+
+    &__grid-conteiner{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(16, 8vh);
+        gap: 20px;
+    }
+
+
+    &__categoria{
+        width: 80vw;
+        // height: 5vh;
+        color: $color5;
+        // margin: 0 auto;
+        text-align: center;
+        border: 1px gray solid;
+        
+    }
+}

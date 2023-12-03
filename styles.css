@@ -1,0 +1,36 @@
+.card {
+  width: 90Vw;
+  border: 1px #EF631A solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card__selection {
+  width: 100%;
+}
+.card__title {
+  width: 100%;
+  background-color: #EF631A;
+  text-align: center;
+}
+.card__grid-conteiner {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(16, 8vh);
+  gap: 20px;
+}
+.card__categoria {
+  width: 80vw;
+  color: #000000;
+  text-align: center;
+  border: 1px gray solid;
+}
+
+body {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=styles.css.map */
